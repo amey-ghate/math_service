@@ -10,9 +10,7 @@ public class Main {
 		
 		if ( args.length > 0) {
 			switch(args[0]) {
-				case "isPrime":
-					System.out.println(service.isPrime(Long.parseLong(args[1])));
-					break;
+				
 				
 				default:
 					System.out.println("Invalid Input arg");
