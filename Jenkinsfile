@@ -23,11 +23,7 @@ pipeline {
             }
         }
 
-        stage("Execute Main class") {
-            steps {
-                sh "java -cp target/${JAR_FILENAME}-${JAR_VERSION}.jar com.sapient.Main isPrime 20"
-            }
-        }
+        
     }
     post {
         always {
